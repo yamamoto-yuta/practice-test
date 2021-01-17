@@ -1,0 +1,7 @@
+.*
+.*/
+__pycache__/
+!.gitignore
+!.bashrc
+!.vimrc
+!.fgo_emoji_list.txt
