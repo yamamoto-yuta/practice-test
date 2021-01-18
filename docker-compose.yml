@@ -3,10 +3,8 @@ version: '3'
 services:
   latest:
     build: .
-    image: template/python/base
-    container_name: template_python_base
-    environment:
-      TZ: Asia/Tokyo
+    image: practice-test
+    container_name: practice-test
     ports:
       - 8888:8888
     volumes:
